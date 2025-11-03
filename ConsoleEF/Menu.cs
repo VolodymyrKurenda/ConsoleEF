@@ -173,5 +173,10 @@ namespace ConsoleEF
             return new Student { Name = EnterName(), Age = EnterAge(), Adress = EnterAdress(), Email = EnterEmail(), Year = EnterYear() };
         }
 
+        public void Newfunction()
+        {
+            return;
+        }
+
     }
 }
